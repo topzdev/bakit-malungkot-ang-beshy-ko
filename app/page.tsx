@@ -1,13 +1,17 @@
 import Content from "@/components/Content";
 import { Metadata } from "next";
+import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "Ba't 🤸 Malungkot 🤸 Ang 🤸 Beshy 🤸 Ko 🤸 Generator",
   description:
-    "This help pinoy memer to generate a text with a Cartwheel Emoji(🤸) between each word",
+    "This app helps Pinoy memers generate a text with a Cartwheel Emoji (🤸) inserted between each word.",
 
   icons: {
-    icon: "/icon.png",
+    icon: "/favicon.ico",
+  },
+  openGraph: {
+    images: "/seo-image.jpg",
   },
 };
 

@@ -12,12 +12,12 @@ const buttonVariant = {
   filled: {
     default: "bg-purple-500 text-white px-5 py-2.5 rounded-xl",
     disabled: "opacity-50 cursor-default",
-    hover: "hover:bg-purple-400 cursor-pointer",
+    hover: "hover:bg-purple-600 cursor-pointer",
   },
   text: {
     default: "text-gray-500 font-semibold px-5 py-2.5 rounded-xl",
     disabled: "opacity-50 cursor-default",
-    hover: "hover:bg-gray-500/30 cursor-pointer",
+    hover: "hover:bg-gray-500/10 cursor-pointer",
   },
 };
 

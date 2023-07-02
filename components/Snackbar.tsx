@@ -21,9 +21,13 @@ const Snackbar = ({ show, setShow, message }: Props) => {
 
   return (
     show && (
-      <div className="bg-violet-500 fixed text-white pl-3 pr-1 py-1 rounded-xl bottom-3 left-1/2 -translate-x-1/2">
-        {message}
-        <Button variant="text" className="!text-white" onClick={handleClose}>
+      <div className="flex items-center bg-violet-500 fixed text-white pl-3 pr-1 py-1 rounded-xl bottom-3 left-1/2 -translate-x-1/2 flex-wrap min-w-[90%] sm:min-w-[auto]">
+        {message}{" "}
+        <Button
+          variant="text"
+          className="!text-white ml-auto"
+          onClick={handleClose}
+        >
           Close
         </Button>
       </div>

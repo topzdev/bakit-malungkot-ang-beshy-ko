@@ -64,7 +64,14 @@ const Content = (props: Props) => {
         Ba't 🤸 Malungkot 🤸 Ang 🤸 Beshy 🤸 Ko 🤸 Generator
       </h1>
 
-      <video width={300} controls ref={videoRef} autoPlay muted>
+      <video
+        width={300}
+        className="rounded-lg"
+        controls
+        ref={videoRef}
+        autoPlay
+        muted
+      >
         <source src="/video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
@@ -99,7 +106,7 @@ const Content = (props: Props) => {
 
       <div className="mt-5 text-center">
         <p>
-          Made 🤸 this 🤸 useless 🤸 app 🤸 by 🤸{" "}
+          Walang 🤸 magawa 🤸 by 🤸 beshie 🤸
           <a
             href="https://topz.dev/"
             className="font-bold text-blue-500"
