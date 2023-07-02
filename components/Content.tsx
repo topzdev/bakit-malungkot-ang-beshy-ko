@@ -77,6 +77,7 @@ const Content = (props: Props) => {
       </video>
 
       <textarea
+        placeholder="Isulat 🤸 mo 🤸 dito 🤸 ang 🤸 text 🤸 beshie"
         className="w-full border-[2px] border-slate-300 rounded-lg outline-none p-5 mt-5"
         name=""
         id=""
