@@ -61,7 +61,7 @@ const Content = (props: Props) => {
   return (
     <main className="flex min-h-screen max-w-[500px] mx-auto flex-col items-center mt-10 px-4">
       <h1 className="text-2xl text-center font-bold mb-5">
-        Ba't 🤸 Malungkot 🤸 Ang 🤸 Beshy 🤸 Ko 🤸 Generator
+        Ba't 🤸 Malungkot 🤸 Ang 🤸 Beshy 🤸 Ko 🤸 Text 🤸 Generator
       </h1>
 
       <video

@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import Head from "next/head";
 
 export const metadata: Metadata = {
-  title: "Ba't 🤸 Malungkot 🤸 Ang 🤸 Beshy 🤸 Ko 🤸 Generator",
+  title: "Ba't 🤸 Malungkot 🤸 Ang 🤸 Beshy 🤸 Ko 🤸 Text 🤸 Generator",
   description:
     "This app helps Pinoy memers generate a text with a Cartwheel Emoji (🤸) inserted between each word.",
 
